@@ -1,3 +1,13 @@
+python-metar (1.4.0-sg6) lucid; urgency=low
+
+  [ Ben Standefer ]
+  * Convert spaces to tabs in debian/rules;'
+  * Remove clean and old hbase stuff from debian/rules
+
+  [ SimpleGeo Nerds ]
+
+ -- SimpleGeo Nerds <nerds@simplegeo.com>  Tue, 09 Nov 2010 03:17:42 +0000
+
 python-metar (1.4.0-sg0) unstable; urgency=low
 
   * Dummy entry for Hudson.
