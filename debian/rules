@@ -5,3 +5,6 @@ DEB_PYTHON_SYSTEM=pysupport
 
 include /usr/share/cdbs/1/rules/debhelper.mk
 include /usr/share/cdbs/1/class/python-distutils.mk
+
+UPSTREAM_VERSION=$(shell dpkg-parsechangelog | grep ^Version: | cut -d ' ' -f 2 | cut -d '-' -f 1)
+PYVER=$(shell python -V 2>&1 | cut -d ' ' -f 2 | cut -d . -f 1-2)
