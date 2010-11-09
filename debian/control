@@ -1,0 +1,16 @@
+Source: python-metar
+Section: python
+Priority: optional
+Maintainer: SimpleGeo Nerds <nerds@simplegeo.com>
+Uploaders: Ben Standefer <benstandefer@gmail.com>
+Build-Depends: cdbs (>= 0.4.41), debhelper (>= 5.0.37.1), python-setuptools (>= 0.6a9), python
+Build-Depends-Indep: python-support (>= 0.2.3)
+Standards-Version: 3.8.4
+XS-Python-Version: all
+
+Package: python-metar
+Architecture: all
+XB-Python-Version: ${python:Versions}
+Depends: ${misc:Depends}, ${python:Depends}
+Provides: ${python:Provides}
+Description: metar library (not pymetar) from the PyPI
