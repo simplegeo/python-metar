@@ -15,8 +15,3 @@ PYVER=$(shell python -V 2>&1 | cut -d ' ' -f 2 | cut -d . -f 1-2)
 
 configure/python-metar::
 	make all
-
-clean::
-	# hack (CDBS bug -- see #300149)
-	-rm -rf build
-	make clean
