@@ -1,3 +1,21 @@
+python-metar (1.4.0-sg2) lucid; urgency=low
+
+  [ Ben Standefer ]
+  * Convert spaces to tabs in debian/rules;'
+  * Fix naming issue in debian/rules
+  * Remove clean
+  * Use debian/pyversions instead of XS-Python-Version
+  * Fix debian/pycompat
+  * Add debian/dirs
+  * Remove debian/pycompat because now we have debian/pyversions
+  * Fix pyversions
+  * Fix debian/rules and add debian/copyright
+  * Add version stuff back into debian/rules
+
+  [ SimpleGeo Nerds ]
+
+ -- SimpleGeo Nerds <nerds@simplegeo.com>  Tue, 09 Nov 2010 22:53:10 +0000
+
 python-metar (1.4.0-sg0) unstable; urgency=low
 
   * Dummy entry for Hudson.
